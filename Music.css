@@ -1,0 +1,906 @@
+/* ---------------------------------------- CSS Start  ---------------------------------------- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* ---------------------------------------- Body ---------------------------------------- */
+body{
+    margin: 0px;
+}
+/* ---------------------------------------- Overall Website Div ---------------------------------------- */
+.bg{
+    min-height: 650px;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 1px;
+    overflow: hidden;
+}
+/* ---------------------------------------- Nav Bar ---------------------------------------- */
+.navbar{
+    width: 100%;
+    height: 65px;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: goldenrod;
+    padding: 0px 50px;
+} 
+/* ---------------------------------------- Nav Bar C-Name ---------------------------------------- */
+.por{
+    color: white;
+    animation-name: port;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-duration: 0.8s;
+    text-shadow: 0px 0px 2px white;
+}
+.por:hover{
+    cursor: pointer;
+    color: black;
+    text-shadow: 0px 0px 2px black;
+}
+/* ---------------------------------------- C-Name Span ---------------------------------------- */
+.spa0{
+    color: black;
+    transition-duration: 0.8s;
+    text-shadow: 0px 0px 2px black;
+    font-size: 33px;
+}
+.por:hover .spa0{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+/* ---------------------------------------- Anchor Tags ---------------------------------------- */
+.fr{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 0px;
+    font-size: 20px;
+    animation-name: hom;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    transition-duration: 0.8s;
+}
+a:first-child{
+    color: black;
+    text-shadow: 0px 0px 2px black;
+}
+a:hover{
+    color: black;
+    text-shadow: 0px 0px 2px black;
+}
+/* ---------------------------------------- Check Box ---------------------------------------- */
+.che{
+    display: none;
+}
+label{
+    display: none;
+}
+/* ---------------------------------------- Icon Menu Bar ---------------------------------------- */
+input:checked ~ .fr{
+    background-color: goldenrod;
+    transition-duration: 1s;
+    top: 65px;
+}
+/* ---------------------------------------- Home Page ---------------------------------------- */
+.home{
+    min-height: 650px;
+    width: 100%;
+    padding: 115px 50px 50px 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+/* ---------------------------------------- Home - 1 ---------------------------------------- */
+.homcn{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.homcn > h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 2px white;
+    transition-duration: 0.8s;
+}
+.hospan-1{
+    color: goldenrod;
+    font-size: 40px;
+    text-shadow: 0px 0px 2px goldenrod;
+    transition-duration: 0.8s;
+}
+.homcn > h2{
+    font-size: 50px;
+}
+.pssp-1{
+    font-size: 50px;
+    color: goldenrod;
+    text-shadow: 0px 0px 2px goldenrod;
+}
+.homcn > h1:hover{
+    cursor: pointer;
+    color: goldenrod;
+    text-shadow: 0px 0px 2px goldenrod;
+}
+.homcn > h1:hover .hospan-1{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+.homus-1 > h1:hover{
+    cursor: pointer;
+    color: goldenrod;
+    text-shadow: 0px 0px 2px goldenrod;
+}
+.homus-1 > h1:hover .hospan-1{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+.ico1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    animation-name: ho1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-top: 40px;
+}
+.ico1 > .fa-brands{
+    color: goldenrod;
+    text-shadow: 0px 0px 2px goldenrod;
+    font-size: 50px;
+    transition-duration: 0.8s;
+}
+.ico1 > .fa-brands:hover{
+    transform: scale(1.8, 1.8);
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    cursor: pointer;
+}
+/* ---------------------------------------- Home - 2 ---------------------------------------- */
+.homus{
+    height: 450px;
+    width: 400px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    transition-duration: 1s;
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.homus:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.homus:hover .ho2{
+    width: 100%;
+}
+.homus-1{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homus-1 > h1{
+    color: white;
+}
+.homus-2 > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.hi1{
+    font-size: 25px;
+    color: black;
+}
+.homus-2 > div:nth-child(2){
+    height: 4px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+.homus-2 .fa-solid{
+    transition-duration: 0.8s;
+}
+.homus-2 .fa-solid:hover{
+    transform: scale(1.4, 1.4);
+    color: white;
+}
+.homus-2 .fa-regular{
+    transition-duration: 0.8s;
+}
+.homus-2 .fa-regular:hover{
+    transform: scale(1.4, 1.4);
+    color: white;
+}
+.ho2{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transition-duration: 2s;
+}
+.ho23{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.homus-2 > div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26px 0px 0px 0px;
+}
+.hi3{
+    font-size: 40px;
+    color: black;
+}
+.homus-2 > div:nth-child(4){
+    height: 6px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    margin: 26px 0px 0px 0px;
+}
+.ho32{
+    width: 70%;
+}
+.ho33{
+    height: 15px;
+    width: 15px;
+}
+/* ---------------------------------------- About Page ---------------------------------------- */
+.about{
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 115px 50px 50px 50px;
+}
+.about > p{
+    width: 95%;
+}
+.about > p:nth-child(1){
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.about > p:nth-child(3){
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+/* ---------------------------------------- About Page Line ---------------------------------------- */
+.line{
+    height: 5px;
+    width: 75%;
+    border-radius: 20px;
+    background-color: white;
+    transition-duration: 1s;
+    animation-name: lian;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.line:hover{
+    cursor: pointer;
+    width: 100%;
+}
+/* ---------------------------------------- Artists Page ---------------------------------------- */
+.artists{
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    padding: 115px 50px 50px 50px;
+}
+.uss{
+    height: 450px;
+    width: 280px;
+}
+.arims{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 100px 10px 10px 10px; */
+    border-radius: 8px;
+}
+.ho-60i{
+    width: 60%;
+}
+.ho-40h{
+    width: 40%;
+}
+.ho-40i{
+    width: 40%;
+}
+.ho-80h{
+    width: 80%;
+}
+.ho-50i{
+    width: 50%;
+}
+.ho-30h{
+    width: 30%;
+}
+.ho-80i{
+    width: 80%;
+}
+.ho-50h{
+    width: 50%;
+}
+.uss:nth-child(1){
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.uss:nth-child(2){
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.uss:nth-child(4){
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.uss:nth-child(4){
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+/* ---------------------------------------- Events Page ---------------------------------------- */
+.events{
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    padding: 115px 50px 50px 50px;
+}
+.evnt-1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.evnt-1 > img{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.evnt-1 > img{
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.evnt-1 > .evedis{
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.evnt-2 > img{
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.evnt-2 > .evedis{
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.evnt-1 > img:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.evedis{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.evedis > h2{
+    text-align: center;
+    color: white;
+}
+.evedis > p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+/* ---------------------------------------- Contact Page ---------------------------------------- */
+.contact{
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 115px 50px 50px 50px;
+}
+/* ---------------------------------------- Contact Page Div ---------------------------------------- */
+.conus{
+    min-height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------------------- Contact - 1 ---------------------------------------- */
+.cousbx{
+    min-height: 450px;
+    width: 380px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-duration: 1s;
+}
+.cousbx:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.cousbx > h2{
+    margin-bottom: 40px;
+}
+td > .fa-solid{
+    color: white;
+    font-size: 40px;
+    color: black;
+} 
+td:first-child{
+    text-align: center;
+    padding-right: 20px;
+}
+td:last-child{
+    text-align: start;
+}
+td{
+    padding-bottom: 20px;
+    color: white;
+}
+.tali{
+    padding-bottom: 0px;
+}
+/* ---------------------------------------- Contact - 2 Form ---------------------------------------- */
+.cofobx{
+    min-height: 450px;
+    width: 380px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+    flex-grow: 1;
+    animation-name: lamd;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transition-duration: 1s;
+}
+.cofobx:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.sali{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sali > input{
+    height: 44px;
+    width: 48%;
+    border: 3px solid goldenrod;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input::placeholder{
+    color: white;
+}
+.inli{
+    height: 44px;
+    width: 100%;
+    border: 3px solid goldenrod;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.txare{
+    height: 182px;
+    resize: none;
+    padding: 10px;
+}
+.txare::placeholder{
+    color: white;
+}
+.btfor0{
+    height: 44px;
+    width: 150px;
+    background-color: goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+.btfor0:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    color: black
+}
+.btfor0:hover .spala2{
+    color: white;
+}
+.spala2{
+    color: black;
+    transition-duration: 0.5s;
+}
+/* ---------------------------------------- Caontact - 3 ---------------------------------------- */
+.ifrls{
+    min-height: 450px;
+    width: 380px;
+    background-color: goldenrod;
+    border: 5px solid goldenrod;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-duration: 1s;
+}
+.ifrls:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.ifrls > h1{
+    color: black;
+}
+.ifrls > p{
+    font-size: 18px;
+}
+.iocla > .fa-brands{
+    color: white;
+    font-size: 40px;
+}
+/* ---------------------------------------- Boot Strap ---------------------------------------- */
+.bcolg{
+    background-color: goldenrod!important;
+}
+.bsinp{
+    outline: none!important;
+}
+.bsinp::placeholder{
+    color: black!important;
+}
+.bgcol{
+    background-color: black!important;
+}
+.anime1{
+    animation-name: homsu-0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.anime2{
+    animation-name: homsu-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+/* ---------------------------------------- Animations ---------------------------------------- */
+@keyframes port{
+    from{
+        position: relative;
+        left: -333px;
+    }
+    to{
+        position: relative;
+        left: 0px;
+    }
+}
+@keyframes hom{
+    from{
+        position: relative;
+        right: -600px;
+    }
+    to{
+        position: relative;
+        right: 0px;
+    }
+}
+@keyframes homsu-0{
+    from{
+        position: relative;
+        left: -120%;
+    }
+    to{
+        position: relative;
+        left: 0px;
+    }
+}
+@keyframes homsu-1{
+    from{
+        position: relative;
+        right: -120%;
+    }
+    to{
+        position: relative;
+        right: 0px;
+    }
+}
+@keyframes lian{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+@keyframes lamd{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* ---------------------------------------- Media Queries for Mobile Screen ---------------------------------------- */
+@media only screen and (max-width: 600px){
+    .fr{
+        position: absolute;
+        left: 0px;
+        top: -550%;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    label{
+        display: block;
+    }
+    .fa-bars{
+        color: white;
+        font-size: 25px;
+        margin-top: -8px;
+        animation-name: icobar;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    @keyframes icobar{
+        from{
+            position: relative;
+            right: -250px;
+        }
+        to{
+            position: relative;
+            right: 0px;
+        }
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .homcn{
+        width: 100%;
+    }
+    .homus{
+        height: 500px;
+        width: 100%;
+    }
+    .about > p{
+        width: 100%;
+    }
+    .uss{
+        flex-wrap: 0;
+    }
+    .evnt-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .evnt-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .evnt-1 > img{
+        width: 100%;
+        height: 50%;
+    }
+    .evedis{
+        width: 100%;
+    }
+}
+/* ---------------------------------------- Media Queries for Tablet Screen ---------------------------------------- */
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .fr{
+        position: absolute;
+        left: 0px;
+        top: -550%;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    label{
+        display: block;
+    }
+    .fa-bars{
+        color: white;
+        font-size: 25px;
+        margin-top: -8px;
+        animation-name: icobar;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    @keyframes icobar{
+        from{
+            position: relative;
+            right: -250px;
+        }
+        to{
+            position: relative;
+            right: 0px;
+        }
+    }
+    .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .homcn{
+        width: 100%;
+    }
+    .uss{
+        flex-grow: 0;
+    }
+    .evnt-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .evnt-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .evnt-1 > img{
+        width: 100%;
+        height: 50%;
+    }
+    .evedis{
+        width: 100%;
+    }
+}
+/* ---------------------------------------- Media Queries for Laptop Screen ---------------------------------------- */
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .evnt-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .evnt-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .evnt-1 > img{
+        width: 100%;
+        height: 50%;
+    }
+    .evedis{
+        width: 100%;
+    }
+}
+/* ---------------------------------------- Mobile Screen ---------------------------------------- */
+@media only screen and (min-width: 475px) and (max-width: 600px){
+    .uss{
+        width: 80%;
+    }
+}
+/* ---------------------------------------- Mobile Screen ---------------------------------------- */
+@media only screen and (max-width: 475px){
+    .sali{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .sali > input{
+        width: 100%;
+    }
+    .sali > input:first-child{
+        margin-bottom: 20px;
+    }
+}
+/* ---------------------------------------- CSS End ---------------------------------------- */
